@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaşlangıçSoru2", "Başla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soru3-NotOrtalamasıHesaplama", "soru3-NotOrtalamasıHesaplama\soru3-NotOrtalamasıHesaplama.csproj", "{9CFFE8FD-3C93-496F-881E-F139B602067A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soru4-PalindromKontrolü", "soru4-PalindromKontrolü\soru4-PalindromKontrolü.csproj", "{153D1F90-5216-4580-BA39-2C25F82C0E36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9CFFE8FD-3C93-496F-881E-F139B602067A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CFFE8FD-3C93-496F-881E-F139B602067A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CFFE8FD-3C93-496F-881E-F139B602067A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{153D1F90-5216-4580-BA39-2C25F82C0E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153D1F90-5216-4580-BA39-2C25F82C0E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153D1F90-5216-4580-BA39-2C25F82C0E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153D1F90-5216-4580-BA39-2C25F82C0E36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
