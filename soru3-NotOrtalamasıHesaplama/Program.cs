@@ -38,3 +38,64 @@ Karar Yapıları (if-else if-else)
 Hata Yönetimi (int.TryParse() ile if-else kontrolü ve mantıksal aralık kontrolü)
 
 */
+
+public class Program
+{
+    static void Main(string[] args)
+    {
+        int dersSayisi;
+        string strDersSayisi;
+        bool donusumDersSayisi;
+        do
+        {
+            Console.Write("Kaç adet ders notu gireceksiniz?: ");
+            strDersSayisi = Console.ReadLine();
+            donusumDersSayisi = int.TryParse(strDersSayisi, out dersSayisi);
+
+            if (!donusumDersSayisi)
+            {
+                Console.WriteLine("Hata: Geçersiz ders sayısı! Lütfen bir tam sayı girin.");
+            }
+            else if (dersSayisi <= 0) 
+            {
+                Console.WriteLine("Hata: Ders sayısı pozitif bir tam sayı olmalıdır. Lütfen tekrar girin.");
+                donusumDersSayisi = false;
+            }
+
+        } while (!donusumDersSayisi);
+
+        int[] notlar = new int[dersSayisi];
+
+        bool donusumNot;
+        int toplam = 0;
+
+        for (int i = 0; i < dersSayisi; i++)
+        {
+            do
+            {
+                Console.Write($"{i + 1}. dersin notunu girin (0-100 arasında): ");
+                string strNot = Console.ReadLine();
+                donusumNot = int.TryParse(strNot, out int dersNot);
+                if (!donusumNot)
+                {
+                    Console.WriteLine("Hata: Geçersiz giriş! Lütfen 0-100 arasında bir tam sayı girin.");
+                }
+                else if (dersNot < 0 || dersNot > 100)
+                {
+                    Console.WriteLine("Hata: Not 0 ile 100 arasında olmalıdır. Lütfen tekrar girin.");
+                    donusumNot = false; 
+                }
+                else
+                {
+                    notlar[i] = dersNot;
+                    toplam += dersNot;
+                }
+            } while (!donusumNot);
+
+        }
+        double ortalama = (double)toplam / dersSayisi;
+        Console.WriteLine($"Not ortalaması: {ortalama:F2}");
+
+    }
+
+}
