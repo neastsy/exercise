@@ -59,22 +59,30 @@ public class Program
 
     public static bool Palindrom(string girilenMetin)
     {
+        string temizlenmisMetin = "";
+        girilenMetin = girilenMetin.ToLower();
 
-        string temizlenmisMetin = new string(girilenMetin.Where(char.IsLetterOrDigit).ToArray()).ToLower();
+        for (int i = 0; i < girilenMetin.Length; i++)
+        {
+            char karakter = girilenMetin[i];
 
-        //Replace metoduyla da temizlenebilir 
-        /*
-        string temizlenmisMetin = girilenMetin.ToLower();
-        temizlenmisMetin = temizlenmisMetin.Replace(" ", ""); // Boşlukları kaldır
-        // Diğer noktalama işaretlerini de kaldırmak için Replace metotlarını zincirleyebiliriz.
-        // temizlenmisMetin = temizlenmisMetin.Replace(",", "").Replace(".", "").Replace("!", ""); vb.
+            if ((karakter >= 'a' && karakter <= 'z') || (karakter >= '0' && karakter <= '9'))
+            {
+                // Sadece harf ve rakamları al
+                temizlenmisMetin += karakter;
+            }
+        }
+        /* gelişmiş metin temizleme işlemi
+        if (char.IsLetterOrDigit(karakter)) // Sadece harf ve rakamları al
+        {
+            temizlenmisMetin += karakter;
+        }
         */
-
-
-        char[] karakterDizisi = temizlenmisMetin.ToCharArray();
-        Array.Reverse(karakterDizisi);
-        string tersCevrilmisMetin = new string(karakterDizisi);
-
+        string tersCevrilmisMetin = "";
+        for (int i = temizlenmisMetin.Length - 1; i >= 0; i--)
+        {
+            tersCevrilmisMetin += temizlenmisMetin[i];
+        }
 
         return temizlenmisMetin == tersCevrilmisMetin;
 
