@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soru4-PalindromKontrolü", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soru5_BasitAlisverisSepetiUygulamasi", "soru5_BasitAlisverisSepetiUygulamasi\soru5_BasitAlisverisSepetiUygulamasi.csproj", "{3DF7B83B-C56D-4BCF-9761-E4F992E751B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soru6_TemelHesapMakinesi", "soru6_TemelHesapMakinesi\soru6_TemelHesapMakinesi.csproj", "{B74D1A7F-4CAB-471E-AC7D-1DDF07538B77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{3DF7B83B-C56D-4BCF-9761-E4F992E751B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DF7B83B-C56D-4BCF-9761-E4F992E751B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DF7B83B-C56D-4BCF-9761-E4F992E751B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B74D1A7F-4CAB-471E-AC7D-1DDF07538B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B74D1A7F-4CAB-471E-AC7D-1DDF07538B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B74D1A7F-4CAB-471E-AC7D-1DDF07538B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B74D1A7F-4CAB-471E-AC7D-1DDF07538B77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
