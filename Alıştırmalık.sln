@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soru6_TemelHesapMakinesi", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soru7_NotOrtalamasiVeDurumBelirleme", "soru7_NotOrtalamasiVeDurumBelirleme\soru7_NotOrtalamasiVeDurumBelirleme.csproj", "{A7A86AF1-D89B-48EF-95DB-7C704C5AB409}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soru8_OgrenciNotAnalizi", "soru8_OgrenciNotAnalizi\soru8_OgrenciNotAnalizi.csproj", "{F029456C-79B2-45BD-8D3F-87FF34682EF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{A7A86AF1-D89B-48EF-95DB-7C704C5AB409}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7A86AF1-D89B-48EF-95DB-7C704C5AB409}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7A86AF1-D89B-48EF-95DB-7C704C5AB409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F029456C-79B2-45BD-8D3F-87FF34682EF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F029456C-79B2-45BD-8D3F-87FF34682EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F029456C-79B2-45BD-8D3F-87FF34682EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F029456C-79B2-45BD-8D3F-87FF34682EF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
