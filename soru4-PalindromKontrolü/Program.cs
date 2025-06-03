@@ -1,4 +1,5 @@
 ﻿/*
+ * Soru 4: Palindrom Kontrolü
 Kullanıcıdan bir kelime veya cümle girmesini isteyin. Girdiği metnin bir palindrom olup olmadığını kontrol eden bir C# konsol uygulaması yazın.
 
 Palindrom Nedir?

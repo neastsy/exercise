@@ -1,4 +1,5 @@
 ﻿/*
+ * Soru 3: Not Ortalaması Hesaplama
 Kullanıcıdan girdiği ders sayısını alarak, her bir dersin notunu girmesini isteyin. 
 Girilen tüm notları bir dizide saklayın. Not girişleri tamamlandıktan sonra, tüm notların ortalamasını hesaplayıp ekrana yazdırın. 
 Not girişi sırasında, geçersiz (sayısal olmayan) bir değer girildiğinde hata mesajı verip tekrar not girmesini isteyin ve notun 0 ile 100 arasında olması gerektiğini kontrol edin. 
